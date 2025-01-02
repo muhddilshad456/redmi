@@ -1,0 +1,97 @@
+.fp {
+  text-align: center;
+  color: black;
+  font-size: 30px;
+}
+@media (max-width: 768px) {
+  .fp {
+    font-size: 20px;
+  }
+}
+@media (max-width: 400px) {
+  .fp {
+    font-size: 18px;
+  }
+}
+.options {
+  padding-left: 2em;
+  font-size: 15px;
+}
+@media (max-width: 400px) {
+  .options {
+    font-size: 10px;
+  }
+}
+
+.op-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.t-div {
+  display: flex;
+  justify-content: center;
+}
+.fr-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+@media (max-width: 500px) {
+  .fr-div {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.vv {
+  width: 40rem;
+}
+@media (max-width: 960px) {
+  .vv {
+    width: 25rem;
+  }
+}
+@media (max-width: 410px) {
+  .vv {
+    width: 20rem;
+  }
+}
+.vvv {
+  width: 25rem;
+}
+@media (max-width: 470px) {
+  .vvv {
+    width: 20rem;
+  }
+}
+.bbb {
+  width: 60px;
+  padding-left: 5px;
+}
+.mmm {
+  height: auto;
+  width: 100%;
+  background-color: black;
+  margin: 0;
+  padding: 0;
+}
+.jjj {
+  color: aliceblue;
+  font-size: 20px;
+}
+.ccc {
+  color: rgb(88, 85, 85);
+}
+.so-img {
+  width: 40px;
+  padding-left: 12px;
+}
+.mmn {
+  color: aliceblue;
+  text-align: start;
+}
+.nnm {
+  color: aliceblue;
+  text-align: start;
+}
